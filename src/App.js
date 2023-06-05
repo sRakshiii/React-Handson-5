@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import HoverComp from './HoverComp';
+import ClickComp from './ClickComp';
+import PureComp from './PureComp';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>Higher Order Component</h2>
+      <ClickComp/>
+      <HoverComp/>
+      <br/>
+      <h2>Pure Component</h2>
+      <PureComp/>
     </div>
   );
 }
