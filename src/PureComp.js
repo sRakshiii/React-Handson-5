@@ -13,10 +13,7 @@ export default class PureComp extends PureComponent {
       <>
       <h2>{this.state.count}</h2>
       
-      <button onClick={()=>{
-        this.handleClick();
-      }}
-      >Click</button>
+      <button onClick={()=>{ this.handleClick(); }}>Click</button>
       </>
     )
   }

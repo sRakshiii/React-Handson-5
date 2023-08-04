@@ -6,6 +6,7 @@ import PureComp from './PureComp';
 function App() {
   return (
     <div className="App">
+      
       <h2>Higher Order Component</h2>
       <ClickComp/>
       <HoverComp/>
